@@ -1,0 +1,23 @@
+{
+    "name": "http-tom/php-filesystem",
+    "description": "PHP Filesystem helper utility",
+    "authors": [
+        {
+            "name": "Tom",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HttpTom\\": "src/HttpTom/"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
